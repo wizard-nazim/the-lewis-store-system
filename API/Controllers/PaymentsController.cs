@@ -6,7 +6,6 @@ using API.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Stripe;
 
 namespace API.Controllers;
 
@@ -14,10 +13,9 @@ public class PaymentsController : BaseApiController
 {
     private readonly PaymentService _paymentService;
     private readonly StoreContext _context;
-    private readonly IConfiguration _config;
-    public PaymentsController(PaymentService paymentService, StoreContext context, IConfiguration config)
+
+    public PaymentsController(PaymentService paymentService, StoreContext context)
     {
-        _config = config;
         _context = context;
         _paymentService = paymentService;
     }
@@ -34,7 +32,8 @@ public class PaymentsController : BaseApiController
 
         var intent = await _paymentService.CreateOrUpdatePaymentIntent(basket);
 
-        if (intent == null) return BadRequest(new ProblemDetails { Title = "Problem creating payment intent" });
+        if (intent == null)
+            return BadRequest(new ProblemDetails { Title = "Problem creating payment intent" });
 
         basket.PaymentIntentId = basket.PaymentIntentId ?? intent.Id;
         basket.ClientSecret = basket.ClientSecret ?? intent.ClientSecret;
@@ -43,29 +42,28 @@ public class PaymentsController : BaseApiController
 
         var result = await _context.SaveChangesAsync() > 0;
 
-        if (!result) return BadRequest(new ProblemDetails { Title = "Problem updating basket with intent" });
+        if (!result)
+            return BadRequest(new ProblemDetails { Title = "Problem updating basket with intent" });
 
         return basket.MapBasketToDto();
     }
 
+    // Optional webhook for fake payment notifications
     [AllowAnonymous]
     [HttpPost("webhook")]
-    public async Task<ActionResult> StripeWebhook()
+    public async Task<ActionResult> FakePaymentWebhook([FromBody] FakePaymentResult result)
     {
-        var json = await new StreamReader(HttpContext.Request.Body).ReadToEndAsync();
+        if (result == null || !result.Success)
+            return BadRequest(new ProblemDetails { Title = "Payment failed or invalid" });
 
-        var stripeEvent = EventUtility.ConstructEvent(json, Request.Headers["Stripe-Signature"],
-            _config["StripeSettings:WhSecret"]);
+        var order = await _context.Orders
+            .FirstOrDefaultAsync(x => x.PaymentIntentId == result.Id);
 
-        var charge = (Charge)stripeEvent.Data.Object;
+        if (order == null) return NotFound();
 
-        var order = await _context.Orders.FirstOrDefaultAsync(x => 
-            x.PaymentIntentId == charge.PaymentIntentId);
-
-        if (charge.Status == "succeeded") order.OrderStatus = OrderStatus.PaymentReceived;
-
+        order.OrderStatus = OrderStatus.PaymentReceived;
         await _context.SaveChangesAsync();
 
-        return new EmptyResult();
+        return Ok();
     }
 }
