@@ -1,0 +1,614 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DS1\\Desktop\\helpme\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\services\\localimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\services\\localimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\entities\\orderaggregate\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\entities\\orderaggregate\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\entities\\orderaggregate\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\entities\\orderaggregate\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\dtos\\basketitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\dtos\\basketitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\dtos\\basketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\dtos\\basketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\data\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\data\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\controllers\\buggycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\controllers\\buggycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\controllers\\fallbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\controllers\\fallbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\requesthelpers\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\requesthelpers\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\requesthelpers\\metadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\requesthelpers\\metadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\extensions\\productextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\extensions\\productextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\extensions\\orderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\extensions\\orderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\extensions\\basketextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\extensions\\basketextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\entities\\useraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\entities\\useraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|c:\\users\\ds1\\desktop\\helpme\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1E52029C-4C8B-4B76-BAEC-ECBB62222849}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cde3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T07:57:32.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Services\\PaymentService.cs",
+              "RelativeToolTip": "API\\Services\\PaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:07:14.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LocalImageService.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Services\\LocalImageService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\LocalImageService.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Services\\LocalImageService.cs",
+              "RelativeToolTip": "API\\Services\\LocalImageService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T07:58:08.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "API\\Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:15:52.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "API\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T07:58:32.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T08:01:55.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\appsettings.Development.json",
+              "RelativeToolTip": "API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T07:57:59.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Entities\\Address.cs",
+              "RelativeDocumentMoniker": "API\\Entities\\Address.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Entities\\Address.cs",
+              "RelativeToolTip": "API\\Entities\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:27:53.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Entities\\OrderAggregate\\OrderItem.cs",
+              "RelativeDocumentMoniker": "API\\Entities\\OrderAggregate\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Entities\\OrderAggregate\\OrderItem.cs",
+              "RelativeToolTip": "API\\Entities\\OrderAggregate\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:27:52.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "API\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:27:50.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "API\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:27:50.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\DTOs\\OrderItemDto.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\OrderItemDto.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\DTOs\\OrderItemDto.cs",
+              "RelativeToolTip": "API\\DTOs\\OrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:27:49.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BasketDto.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\DTOs\\BasketDto.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\BasketDto.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\DTOs\\BasketDto.cs",
+              "RelativeToolTip": "API\\DTOs\\BasketDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:23:09.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Data\\StoreContext.cs",
+              "RelativeDocumentMoniker": "API\\Data\\StoreContext.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Data\\StoreContext.cs",
+              "RelativeToolTip": "API\\Data\\StoreContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:23:08.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "API\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "API\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:23:07.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "API\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAASwGMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:01:58.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BasketItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\DTOs\\BasketItemDto.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\BasketItemDto.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\DTOs\\BasketItemDto.cs",
+              "RelativeToolTip": "API\\DTOs\\BasketItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:23:10.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Entities\\OrderAggregate\\Order.cs",
+              "RelativeDocumentMoniker": "API\\Entities\\OrderAggregate\\Order.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Entities\\OrderAggregate\\Order.cs",
+              "RelativeToolTip": "API\\Entities\\OrderAggregate\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:04:59.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\DTOs\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\CreateOrderDto.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\DTOs\\CreateOrderDto.cs",
+              "RelativeToolTip": "API\\DTOs\\CreateOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:23:11.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\DTOs\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\CreateProductDto.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\DTOs\\CreateProductDto.cs",
+              "RelativeToolTip": "API\\DTOs\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:23:11.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "API\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:23:12.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\BaseApiController.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Controllers\\BaseApiController.cs",
+              "RelativeToolTip": "API\\Controllers\\BaseApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:02:02.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Controllers\\BasketController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\BasketController.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Controllers\\BasketController.cs",
+              "RelativeToolTip": "API\\Controllers\\BasketController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwD8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:02:04.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BuggyController.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Controllers\\BuggyController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\BuggyController.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Controllers\\BuggyController.cs",
+              "RelativeToolTip": "API\\Controllers\\BuggyController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:15:41.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FallbackController.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Controllers\\FallbackController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\FallbackController.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Controllers\\FallbackController.cs",
+              "RelativeToolTip": "API\\Controllers\\FallbackController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:02:17.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "API\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAIwG0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:02:19.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Services\\TokenService.cs",
+              "RelativeToolTip": "API\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:12:39.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PaginationParams.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\RequestHelpers\\PaginationParams.cs",
+              "RelativeDocumentMoniker": "API\\RequestHelpers\\PaginationParams.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\RequestHelpers\\PaginationParams.cs",
+              "RelativeToolTip": "API\\RequestHelpers\\PaginationParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:15:21.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MetaData.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\RequestHelpers\\MetaData.cs",
+              "RelativeDocumentMoniker": "API\\RequestHelpers\\MetaData.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\RequestHelpers\\MetaData.cs",
+              "RelativeToolTip": "API\\RequestHelpers\\MetaData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:15:18.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProductExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Extensions\\ProductExtensions.cs",
+              "RelativeDocumentMoniker": "API\\Extensions\\ProductExtensions.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Extensions\\ProductExtensions.cs",
+              "RelativeToolTip": "API\\Extensions\\ProductExtensions.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:15:25.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "OrderExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Extensions\\OrderExtensions.cs",
+              "RelativeDocumentMoniker": "API\\Extensions\\OrderExtensions.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Extensions\\OrderExtensions.cs",
+              "RelativeToolTip": "API\\Extensions\\OrderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:04:26.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BasketExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Extensions\\BasketExtensions.cs",
+              "RelativeDocumentMoniker": "API\\Extensions\\BasketExtensions.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Extensions\\BasketExtensions.cs",
+              "RelativeToolTip": "API\\Extensions\\BasketExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:15:32.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserAddress.cs",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Entities\\UserAddress.cs",
+              "RelativeDocumentMoniker": "API\\Entities\\UserAddress.cs",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\Entities\\UserAddress.cs",
+              "RelativeToolTip": "API\\Entities\\UserAddress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:15:37.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "API",
+              "DocumentMoniker": "C:\\Users\\DS1\\Desktop\\helpme\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "C:\\Users\\DS1\\Desktop\\helpme\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-20T07:57:25.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
