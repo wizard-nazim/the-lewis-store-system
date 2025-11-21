@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Identity;
+using API.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -139,6 +140,25 @@ app.UseAuthorization();
 
 // Map controllers
 app.MapControllers();
+
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<StoreContext>();
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<Role>>();
+
+    await context.Database.MigrateAsync();
+
+    // Seed Roles if they don't exist
+    if (!await roleManager.RoleExistsAsync("Member"))
+        await roleManager.CreateAsync(new Role { Name = "Member" });
+
+    if (!await roleManager.RoleExistsAsync("Admin"))
+        await roleManager.CreateAsync(new Role { Name = "Admin" });
+
+    await DbInitializer.Initialize(context, userManager);
+}
+
 
 
 // -----------------
