@@ -152,5 +152,4 @@ using (var scope = app.Services.CreateScope())
     await DbInitializer.Initialize(context, userManager);
 }
 
-
 app.Run();

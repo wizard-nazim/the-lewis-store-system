@@ -313,3 +313,4 @@ c:\Users\DS1\Desktop\lewis-store-system\API\obj\Debug\net8.0\refint\API.dll
 c:\Users\DS1\Desktop\lewis-store-system\API\obj\Debug\net8.0\API.pdb
 C:\Users\DS1\Desktop\lewis-store-system\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\DS1\Desktop\lewis-store-system\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\DS1\Desktop\lewis-store-system\API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

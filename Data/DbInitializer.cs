@@ -11,8 +11,8 @@ public static class DbInitializer
         {
             var user = new User
             {
-                UserName = "nazim",
-                Email = "nazimrafudeen@gmail.com"
+                UserName = "bob",
+                Email = "bob@test.com"
             };
 
             await userManager.CreateAsync(user, "Pa$$w0rd");
@@ -21,7 +21,7 @@ public static class DbInitializer
             var admin = new User
             {
                 UserName = "admin",
-                Email = "nazim.dev@proton.me"
+                Email = "admin@test.com"
             };
 
             await userManager.CreateAsync(admin, "Pa$$w0rd");
